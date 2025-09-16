@@ -1,7 +1,6 @@
 package Lista1;
 import java.util.Scanner;
-public class Exercicio1 {
-    /*
+/*
          Peso Ideal (Java)
 
         Segundo uma tabela médica, o peso ideal de uma pessoa está relacionado com a sua altura e com o seu sexo. Implemente um programa que receba como entradas a altura (A) e o sexo (S); a seguir ele calcula e imprime o peso ideal dessa pessoa, considerando:
@@ -33,6 +32,8 @@ public class Exercicio1 {
         - Dados de entrada do tipo caractere
         - Estruturas condicionais
          */
+public class Exercicio1 {
+
     public static void main(String[] args) {
         Scanner entrada = new Scanner(System.in);
         String valor = entrada.nextLine();
